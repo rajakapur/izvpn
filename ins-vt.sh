@@ -52,7 +52,7 @@ cat> /etc/v2ray/config.json << END
         "tlsSettings": {
           "certificates": [
             {
-              "certificateFile": "etc/v2ray/v2ray.crt",
+              "certificateFile": "/etc/v2ray/v2ray.crt",
               "keyFile": "/etc/v2ray/v2ray.key"
             }
           ]
@@ -237,7 +237,7 @@ cat> /etc/v2ray/vless.json << END
         "tlsSettings": {
           "certificates": [
             {
-              "certificateFile": "etc/v2ray/v2ray.crt",
+              "certificateFile": "/etc/v2ray/v2ray.crt",
               "keyFile": "/etc/v2ray/v2ray.key"
             }
           ]
